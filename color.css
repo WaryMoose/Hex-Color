@@ -34,9 +34,18 @@ body {
 #name {
 	color: inherit;
 	text-decoration: none;
-	margin-right: 1%;
 	position: absolute;
 	left: 2%;
+}
+#name h2{
+	-webkit-transition: 1.5s ease;
+	-moz-transition: 1.5s ease;
+	-ms-transition: 1.5s ease;
+	-o-transition: 1.5s ease;
+	transition: 1.5s ease;
+}
+#name h2:hover {
+	transform: translateY(5px) scale(1.05);
 }
 #webpagefx {
 	color: inherit;
