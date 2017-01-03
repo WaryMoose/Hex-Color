@@ -1,2 +1,2 @@
 # Hex-Color
-Inspired
+Inspired by webpagefx.com
