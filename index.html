@@ -8,10 +8,43 @@
 </head>
 <body>
 <div id="form-div">
+	<a id="name" target="_blank" href="http://oshanshrestha.co.nf"><h2>Oshan Shrestha</h2></a>
 	<form id="form-wrap">
-		<input id="hex-code" type="text" name="hex-code" placeholder="Hex Code Here">
+		<input id="hex-code" type="text" name="hex-code" placeholder="Hex Code Here" onkeyup="setBackground()" maxlength="6">
 	</form>
+	<ul id="links">
+		<li><a target="_blank" href="https://github.com/WaryMoose/Hex-Color/">Github</a></li>
+		<li><a target="_blank" href="http://oshanshrestha.co.nf/">Portfolio</a></li>
+		<li><a target="_blank" href="https://facebook.com/oshu.shr">Facebook</a></li>
+	</ul>
+	<p id="webpagefx">Inspired by <em><a target="_blank" href="http://www.webpagefx.com/web-design/hex-to-rgb/">webpagefx</a></em></p>
 </div>
+
+<script type="text/javascript">
+
+	function setBackground() {
+    var wrap = document.getElementById("form-wrap");
+    var colorCode = "";
+    var i;
+    for (i = 0; i < wrap.length ;i++) {    	
+        colorCode += wrap.elements[i].value;
+    }
+    if (colorCode != "") {
+	    document.body.style.background = "#" + colorCode;
+	}
+	if (colorCode == "") {
+		document.body.style.background = "#11ff88";	
+	}
+	if (colorCode == "222") {
+		document.body.style.color = "#fff";
+	}
+	if (colorCode == "fff") {
+		document.body.style.color = "#222";
+	}
+}
+</script>
+
+
 
 </body>
 </html>
