@@ -1,0 +1,26 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: 'Josefin Sans', Sans;
+	margin: 0;
+}
+#form-div {
+	display: table;
+    width: 100%;
+    height: 100%;
+}
+#hex-code{
+	text-align: center;
+	padding: 1em 3em;
+	border: none;
+	border-bottom: none;
+	-webkit-appearance: textfield;
+	user-select: text;
+}
+.text-vertical {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
