@@ -8,6 +8,14 @@ body {
 	background: #11ff88;
 	color: #222;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	color: inherit;
+	text-decoration: underline;
+}
 #form-div {
 	color: inherit;
 	display: table;
@@ -44,34 +52,39 @@ body {
 	-o-transition: 1.5s ease;
 	transition: 1.5s ease;
 }
+.btn, .btn:hover, .btn:active, .btn:focus {
+	font: inherit;
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	border: none;
+	border-left: 1px solid #555;
+	border-right: 1px solid #555;
+	padding: 6px 8px;
+	background: transparent;
+	cursor: pointer;
+	outline: none;
+}
 #name h2:hover {
-	transform: translateY(5px) scale(1.05);
+	transform: translateY(5px) scale(1.01);
 }
 #webpagefx {
 	color: inherit;
 	position: absolute;
 	top: 92.5%;
 	right: 2%;
+	font-size: 1em;
 }
 #links {
 	position: absolute;
 	left: 2%;
 	top: 92.5%;
-}
-ul {
 	padding-left: 0;
+	display: inline-block;
 }
 ul li {
 	float: right;
 	position: relative;
 	list-style: none;
 	padding-right: 10px;
-}
-a {
-	text-decoration: none;
-	color: inherit;
-}
-a:hover {
-	color: inherit;
-	text-decoration: underline;
 }
