@@ -59,8 +59,9 @@ a:hover {
 	top: 2%;
 	right: 2%;
 	border: none;
-	border-left: 1px solid #555;
-	border-right: 1px solid #555;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: inherit;
 	padding: 6px 8px;
 	background: transparent;
 	cursor: pointer;
