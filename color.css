@@ -3,18 +3,10 @@ html, body {
 	height: 100%;
 }
 body {
-	font-family: 'Josefin Sans', Sans;
+	font-family: 'Josefin Sans', Sans-serif;
 	margin: 0;
 	background: #11FF88;
 	color: #222;
-}
-a {
-	text-decoration: none;
-	color: inherit;
-}
-a:hover {
-	color: inherit;
-	text-decoration: underline;
 }
 #form-div {
 	color: inherit;
@@ -45,12 +37,20 @@ a:hover {
 	position: absolute;
 	left: 2%;
 }
-#name h2{
+#name{
 	-webkit-transition: 1.5s ease;
 	-moz-transition: 1.5s ease;
 	-ms-transition: 1.5s ease;
 	-o-transition: 1.5s ease;
 	transition: 1.5s ease;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	color: inherit;
+	text-decoration: underline;
 }
 .btn, .btn:hover, .btn:active, .btn:focus {
 	font: inherit;
