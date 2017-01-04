@@ -5,7 +5,7 @@ html, body {
 body {
 	font-family: 'Josefin Sans', Sans;
 	margin: 0;
-	background: #11ff88;
+	background: #11FF88;
 	color: #222;
 }
 a {
@@ -54,6 +54,7 @@ a:hover {
 }
 .btn, .btn:hover, .btn:active, .btn:focus {
 	font: inherit;
+	color: inherit;
 	position: absolute;
 	top: 2%;
 	right: 2%;
