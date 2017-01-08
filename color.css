@@ -35,8 +35,6 @@ body {
 	text-decoration: none;
 	position: absolute;
 	left: 2%;
-}
-#name{
 	-webkit-transition: 1.5s ease;
 	-moz-transition: 1.5s ease;
 	-ms-transition: 1.5s ease;
